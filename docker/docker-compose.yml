@@ -1,0 +1,28 @@
+version: '3'
+services:
+    mysql:
+        image: mysql
+        volumes:
+            - "./.data/db:/var/lib/mysql"
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: squawka
+            MYSQL_USER: squawka
+            MYSQL_PASSWORD: squawka
+    php:
+        build: php-fpm
+        ports:
+            - '9002:9000'
+        volumes:
+            - ../:/var/www/symfony:cached
+            - ./logs/symfony:/var/www/symfony/var/logs:cached
+        links:
+            - mysql
+    nginx:
+        build: nginx
+        ports:
+            - '8080:80'
+        links:
+            - php
+        volumes:
+            - ./logs/nginx/:/var/log/nginx:cached

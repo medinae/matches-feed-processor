@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<squawka_match>
+	<event_id>e10784</event_id>
+	<venue>Camp Nou</venue>
+	<date>2015-10-21 18:45:00</date>
+	<name>Barcelona vs Ajax</name>
+	<home_team_score>3</home_team_score>
+	<away_team_score>1</away_team_score>
+	<competition_name>Champions League</competition_name>
+	<competition_shortname>Champions League</competition_shortname>
+	<competition_icon>http://www.squawka.com/competition-icon/no_icon.png</competition_icon>
+</squawka_match>

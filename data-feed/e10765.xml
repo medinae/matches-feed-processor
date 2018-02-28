@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<squawka_match>
+	<event_id>e10765</event_id>
+	<venue>Olimpico</venue>
+	<date>2015-08-17 18:45:00</date>
+	<name>Roma vs CSKA</name>
+	<home_team_score>5</home_team_score>
+	<away_team_score>1</away_team_score>
+	<competition_name>Champions League</competition_name>
+	<competition_shortname>Champions League</competition_shortname>
+	<competition_icon>http://www.squawka.com/competition-icon/no_icon.png</competition_icon>
+</squawka_match>
