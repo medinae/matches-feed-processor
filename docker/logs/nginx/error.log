@@ -4,3 +4,8 @@
 2018/02/28 15:55:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
 2018/02/28 16:23:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
 2018/02/28 16:24:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2018/02/28 23:14:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2018/02/28 23:15:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2018/02/28 23:18:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2018/02/28 23:23:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2018/03/01 18:11:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15

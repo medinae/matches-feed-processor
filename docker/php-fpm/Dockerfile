@@ -18,4 +18,5 @@ RUN "date"
 
 WORKDIR /var/www/symfony
 
-#ENTRYPOINT ['bin/console', 'doctrine:migration:migrate']
+#COPY entrypoint.sh /entrypoint.sh
+#ENTRYPOINT ['/entrypoint.sh']

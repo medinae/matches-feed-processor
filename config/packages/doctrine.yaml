@@ -12,7 +12,7 @@ doctrine:
             default:
                 host: mysql
                 port: 3306
-                dbname: match
+                dbname: squawka
                 user: root
                 password: root
                 charset: UTF8
